@@ -33,11 +33,11 @@ by <a xmlns:cc="http://creativecommons.org/ns#" href="http://joshuaestes.me"
 property="cc:attributionName" rel="cc:attributionURL">Joshua Estes</a> is
 licensed under a <a rel="license"
 href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
-Attribution-ShareAlike 4.0 International License</a>.<br />Based on a work at <a
+Attribution-ShareAlike 4.0 International License</a>. Based on a work at <a
 xmlns:dct="http://purl.org/dc/terms/"
 href="https://github.com/JoshuaEstes/CheatSheets"
-rel="dct:source">https://github.com/JoshuaEstes/CheatSheets</a>.<br
-/>Permissions beyond the scope of this license may be available at <a
+rel="dct:source">https://github.com/JoshuaEstes/CheatSheets</a>.
+Permissions beyond the scope of this license may be available at <a
 xmlns:cc="http://creativecommons.org/ns#"
 href="https://github.com/JoshuaEstes/CheatSheets/blob/master/LICENSE"
 rel="cc:morePermissions">https://github.com/JoshuaEstes/CheatSheets/blob/master/LICENSE</a>.
