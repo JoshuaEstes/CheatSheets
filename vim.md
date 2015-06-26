@@ -152,8 +152,24 @@ autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 autocmd FileType c set omnifunc=ccomplete#Complete
 ```
 
+## Reformat mixed indent files
+
+```vim
+" Goto first line in file
+gg
+" Enter visual line mode
+shift+v
+" Goto the last line of the file
+shift+g
+" Filter lines
+=
+```
+
+
 ## Multi Liners
 
-    :set tw=80                  Sets text width to 80 characters
-        gg                      Goto first line
-        gqG                     Format file till you reach the last line
+```
+:set tw=80                  Sets text width to 80 characters
+    gg                      Goto first line
+    gqG                     Format file till you reach the last line
+```
