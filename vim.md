@@ -165,11 +165,16 @@ shift+g
 =
 ```
 
-
 ## Multi Liners
 
 ```
 :set tw=80                  Sets text width to 80 characters
     gg                      Goto first line
     gqG                     Format file till you reach the last line
+```
+
+## Remove trailing whitespace on the ends of every line
+
+```vim
+:%s/\s\+$//
 ```
