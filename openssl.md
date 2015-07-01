@@ -3,6 +3,9 @@ OpenSSL Cheat Sheet
 
 ## Generate Self-Signed Certificate and Private Key
 
-```bash
-openssl req -newkey rsa:2048 -nodes -keyout server.key -x509 -days 365 -out server.crt
+```shell
+openssl genrsa -des3 -passout pass:x -out server.pass.key 2048 && openssl rsa -passin pass:x -in server.pass.key -out server.key && openssl req -new -key server.key -out server.csr
+openssl x509 -req -days 365 -in server.csr -signkey server.key -out server.crt
 ```
+
+- Use `server.crt` and `server.key`
