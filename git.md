@@ -139,3 +139,14 @@ $ git grep 'search term' -- '*.php'
 # Grep in the 'src/` directory, only yml files
 $ git grep 'search term' -- 'src/**.yml'
 ```
+
+## Push Branch to Remote Repository to a different branch name
+
+```shell
+git push origin localBranchName:remoteBranchName
+```
+
+Use Case: I will often use rebase, I will cut a branch off the branch I want to rebase and
+do the rebase on the newly created branch. Once I am done, I will check the diff and see if
+I screwed up. If it's all good, `git push -f` **NOTICE**: DO NOT `git push -f` unless you know
+what you are doing.
