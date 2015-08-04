@@ -50,6 +50,7 @@ or ESC key
 | t       | Show the time.
 | =       | Choose which buffer to paste interactively from a list.
 | ]       | Paste the most recently copied buffer of text.
+| .       | Move window
 
 ## Create a new session
 
