@@ -13,7 +13,6 @@ or ESC key
 | n       | Change to the next window.
 | p       | Change to the previous window.
 | ,       | Rename the current window.
-| l       | Move to the previously selected window.
 | w       | Choose the current window interactively.
 | M-n     | Move to the next window with a bell or activity marker.
 | M-p     | Move to the previous window with a bell or activity marker.
