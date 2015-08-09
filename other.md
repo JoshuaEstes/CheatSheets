@@ -24,3 +24,5 @@ Host test
 ```
 
 Next, all you need to do to ssh into the server is `ssh test` and that's it.
+
+> **NOTE** `HostName` may be an IP Address instead of a domain name
