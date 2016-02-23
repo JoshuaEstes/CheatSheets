@@ -39,7 +39,6 @@ or ESC key
 | f       | Prompt to search for text in open windows.
 | r       | Force redraw of the attached client.
 | L       | Switch the attached client back to the last session.
-| $       | Rename Current Session
 | :       | Enter the tmux command prompt
 | ?       | List all key bindings
 | f       | Search window titles and goto that window
