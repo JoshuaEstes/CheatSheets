@@ -88,5 +88,5 @@ tmux list-sessions
 
 ## References
 
-* http://www.openbsd.org/cgi-bin/man.cgi?query=tmux&sektion=1#KEY+BINDINGS
+* http://man.openbsd.org/OpenBSD-current/man1/tmux.1
 
