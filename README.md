@@ -9,9 +9,9 @@ psql commands are quite forgetable and I forget them a lot, that is why I decide
 This cheat sheet is divided into four main sections:
 
 - [Queries](queries/)
-- [Commands Inside PSQL](commands-inside-psql)
-- [Commands Outside PSQL]()
-- [Utilities]()
+- [Commands Inside PSQL](commands-inside-psql/)
+- [Commands Outside PSQL](commands-outside-psql/)
+- [Utilities](utilities/)
 
 ## License
 
