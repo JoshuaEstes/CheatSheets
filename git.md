@@ -138,6 +138,9 @@ $ git grep 'search term' -- '*.php'
 
 # Grep in the 'src/` directory, only yml files
 $ git grep 'search term' -- 'src/**.yml'
+
+# Open files in vim
+vim $(git grep --name-only 'search term' src/)
 ```
 
 ## Push Branch to Remote Repository to a different branch name
