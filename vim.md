@@ -115,8 +115,10 @@ set spell
 |---------|-------------|
 | zo      | OPEN code fold under cursor
 | zc      | CLOSE code fold under cursor
-| zR      | OPEN ALL code folds
-| zM      | CLOSE ALL code folds
+| zO      | OPEN ALL code folds under cursor
+| zC      | CLOSE ALL code folds under cursor
+| zr      | Reduces all code folds by one level in buffer
+| zR      | Reduces all code folds in buffer (ie: Open all code folds)
 
 ## Marks
 
